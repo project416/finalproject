@@ -1,1 +1,26 @@
+import React from "react";
+import "../styles/location.css";
+
+const DubaiFountain = () => {
+  return (
+    <main>
+      <h1 className="fc br mar">Dubai Fountain</h1>
+      <div className="info-div">
+        <img src="./images/dubai-fountain.jpg" alt="" class="loc-img" />
+        <div class="info-text">
+          Dubai Fountain is the world's largest choreographed water fountain
+          located in the beautiful Burj Complex. This dancing fountain surges as
+          high as 150 meters in complete synchronisation to classical, Arabic
+          and other popular world musical numbers. Forming beautiful arcs and
+          jumping to the beats, this fountain was designed by California-based
+          WET, the creators of the Fountains of Bellagio in Las Vegas. The show
+          begins in the evening every day, and the best way to approach it is
+          through the Dubai Mall.
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default DubaiFountain;
 
