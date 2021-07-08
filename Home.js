@@ -5,19 +5,18 @@ import "../styles/image-pos.css";
 const Home = () => {
   return (
     <main>
-      <h1 class="head1">Dubai</h1>
-      <div class="three-img-container">
-        <div id="img-first" class="div-img top-img"></div>
-        <div id="img-second" class="div-img mid-img"></div>
-        <div id="img-third" class="div-img bottom-img"></div>
+      <div className="three-img-container">
+        <div id="img-first" className="div-img top-img"></div>
+        <div id="img-second" className="div-img mid-img"></div>
+        <div id="img-third" className="div-img bottom-img"></div>
 
-        <div class="info-container">
+        <div className="info-container">
           <h1 style={{ color: "#374AD2" }}>Dubai:</h1>
           <h1> The City of Gold</h1>
         </div>
       </div>
 
-      <h1 class="fc br">Why Dubai?</h1>
+      <h1 className="fc br">Why Dubai?</h1>
       <div className="info-sec">
         <p>
           Discover the extravagant luxury, high-tech facilities and old world
@@ -53,7 +52,7 @@ const Home = () => {
         </div>
       </div>
 
-      <h1 class="fc br">History and Culture</h1>
+      <h1 className="fc br">History and Culture</h1>
       <div className="info-sec">
         <p>
           Dubai has a rich, Arabic cultural heritage. While it is now more known
