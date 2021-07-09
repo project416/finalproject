@@ -29,6 +29,7 @@ const TravelImages = () => {
           accept="image/*"
           onChange={handleImageUpload}
         />
+	<p style={{color: "orange"}}>Resolution of the image should be less than or equal to 1920*1080</p>
       </div>
     </main>
   );
@@ -76,3 +77,4 @@ const handleImageUpload = (event) => {
 };
 
 export default TravelImages;
+
