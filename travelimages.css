@@ -1,0 +1,28 @@
+input,
+button {
+  font-size: 1.1em;
+}
+
+button {
+  margin: 0.75em 0px;
+  max-width: 10em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1em;
+}
+
+#image-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+canvas {
+  margin: 1em;
+}
