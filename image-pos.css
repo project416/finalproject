@@ -1,0 +1,52 @@
+.three-img-container {
+  width: 90%;
+  height: 57em;
+  margin: 1em 2em;
+  border: 2em solid #264207;
+  border-radius: 10px 100px;
+  overflow: hidden;
+}
+
+.div-img {
+  position: absolute;
+  width: 53vw;
+  height: 25em;
+  display: block;
+  margin: 1em 2em;
+  background: url(../images/burj-al-arab.jpg);
+  border-radius: 5px 30px;
+  background-size: cover !important;
+  animation: rem-push 1.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.mid-img {
+  position: absolute;
+  background: url(../images/burj-al-arab.jpg);
+  animation: push 1.5s ease-out;
+  animation-fill-mode: forwards;
+  margin-top: 15em;
+  z-index: 5;
+}
+
+.bottom-img {
+  margin-top: 30em;
+}
+
+@keyframes push {
+  0% {
+    left: 8%;
+  }
+  100% {
+    left: 35%;
+  }
+}
+
+@keyframes rem-push {
+  0% {
+    left: 8%;
+  }
+  100% {
+    left: 10%;
+  }
+}
