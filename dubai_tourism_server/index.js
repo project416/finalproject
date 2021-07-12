@@ -17,10 +17,10 @@ app.post("/info/to/server", (req, res) => {
     .json({ status: "OK, data sent to server.", data: { body: req.body } });
 });
 
-// Middleware function call:
+// Middleware function call() :
 app.use((req, res, next) => {
   console.log("Hello! The server will respond.");
-  next();
+  next;
 });
 
 app.get("/", (req, res) => {
