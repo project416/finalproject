@@ -20,7 +20,7 @@ app.post("/info/to/server", (req, res) => {
 // Middleware function call() :
 app.use((req, res, next) => {
   console.log("Hello! The server will respond.");
-  next;
+  next();
 });
 
 app.get("/", (req, res) => {
